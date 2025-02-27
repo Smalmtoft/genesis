@@ -1,0 +1,6 @@
+.gallery-section{
+    display: grid;
+    grid-template-columns: 1fr / 9fr;
+    grid-template-rows: 1fr / 32fr;
+    max-height: 300px;
+}
