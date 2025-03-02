@@ -1,0 +1,21 @@
+.hello-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content:space-between;
+    padding-bottom: 7%;
+    width: 100%;
+}
+
+.hello-title{
+    max-width: 50%;
+    flex-direction: column;
+}
+
+.progress{
+    align-self: flex-end;
+}
+
+.purple, .shooting-stars{
+    color: #4A4FF2;
+}
