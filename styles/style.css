@@ -167,4 +167,52 @@ li {
 
 .purple, .shooting-stars {
   color: #4A4FF2;
+}
+
+header {
+  margin: auto;
+  padding: 5% 10% 2% 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.logo {
+  max-width: 200px;
+  height: auto;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+footer {
+  margin: auto;
+  padding: 5% 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: baseline;
+}
+
+.footer-nav {
+  display: flex;
+  flex-direction: row;
+  gap: 100pxs;
+}
+
+.icons {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.icon {
+  -o-object-fit: contain;
+     object-fit: contain;
+  max-width: 20px;
 }/*# sourceMappingURL=style.css.map */
