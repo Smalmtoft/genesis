@@ -1,8 +1,16 @@
 .service-section{
+    width: 100%;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    padding: 40px, 0px;
+    justify-content: space-between;
+    padding-top: 10%; 
+    padding-bottom: 10%;
+    border-bottom: 1px solid#8c8c8c;
+}
+
+.service-section_title{
+    max-width: 50%;
 }
 
 li{
@@ -12,7 +20,6 @@ li{
 .awards-section{
     display: flex;
     flex-direction: column;
-    gap: 40px;
     width: 100%;
 }
 
@@ -21,6 +28,8 @@ li{
     grid-template-columns: 1fr 3fr;
     grid-auto-rows: auto;
     width: 100%;
+    padding-top: 2%;
+    padding-bottom: 5%;
     border-bottom: 1px solid#8c8c8c;
 
 }
@@ -28,5 +37,15 @@ li{
 .award{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: flex-end;
+    gap: 20%;
+}
+
+
+.awards-title{
+    min-width: 40%;
+}
+
+.awards-genesis{
+    max-width: 20%;
 }
