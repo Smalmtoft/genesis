@@ -8,14 +8,14 @@
     grid-gap: 20px;
 }
 
-.gallery-element{
+.gallery-section__element{
     width: 100%;
     height: 100%;
     background-color: aqua;
 }
 
 
-.gallery-element, img{
+img{
     width: 100%;
     height: 100%;
     object-fit: cover;

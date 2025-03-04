@@ -4,22 +4,43 @@ header{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: baseline;
+
+    &__logo{
+        max-width: 150px;
+        height: auto;
+        object-fit: contain;
+        
+    }
+
 }
 
 
 
-.logo{
-    max-width: 200px;
-    height: auto;
-    object-fit: contain;
-    
+.nav{
+
+    &__list{
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+    }
+
+    &__item{
+        list-style: none;
+    }
+
+    &__icons{   
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+    }
+
+    &__icon{
+        object-fit: contain;
+        max-width: 20px;
+    }
 }
 
-ul{
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
-}
 
 
 footer{
@@ -28,23 +49,13 @@ footer{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-content: baseline;
+    align-items: baseline;
+
+    &__logo{
+        max-width: 150px;
+        height: auto;
+        object-fit: contain;    
+    }
+    
 }
 
-.footer-nav{
-    display: flex;
-    flex-direction: row;
-    gap: 100pxs;
-}
-
-.icons{
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
-
-}
-
-.icon{
-    object-fit: contain;
-    max-width: 20px;
-}

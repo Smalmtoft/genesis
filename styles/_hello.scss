@@ -5,15 +5,21 @@
     align-content:space-between;
     padding-bottom: 7%;
     width: 100%;
-}
 
-.hello-title{
-    max-width: 50%;
-    flex-direction: column;
-}
+    &__container{
+        max-width: 60%;
+        flex-direction: column;
+    }
 
-.progress{
-    align-self: flex-end;
+    &__title{
+        font-size: 40px;
+        line-height: 1.5;
+    }
+
+    &__progress{
+        align-self: flex-end;
+    }
+
 }
 
 .purple, .shooting-stars{
