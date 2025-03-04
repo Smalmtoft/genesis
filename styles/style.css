@@ -206,12 +206,12 @@ header__logo {
      object-fit: contain;
 }
 
-.nav__list {
+a .nav__list {
   display: flex;
   flex-direction: row;
   gap: 20px;
 }
-.nav__item {
+a .nav__item {
   list-style: none;
 }
 
