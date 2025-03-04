@@ -164,10 +164,6 @@ p {
   justify-content: space-between;
   gap: 20%;
 }
-.awards-section__title {
-  min-width: 60%;
-  text-align: left;
-}
 .awards-section__example {
   max-width: 20%;
 }
@@ -218,16 +214,6 @@ header__logo {
 .nav__item {
   list-style: none;
 }
-.nav__icons {
-  display: flex;
-  flex-direction: row;
-  gap: 20px;
-}
-.nav__icon {
-  -o-object-fit: contain;
-     object-fit: contain;
-  max-width: 20px;
-}
 
 footer {
   margin: auto;
@@ -237,9 +223,33 @@ footer {
   justify-content: space-between;
   align-items: baseline;
 }
-footer__logo {
+
+.footer-nav {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+.footer-nav__list {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.footer-nav__item {
+  list-style: none;
+}
+.footer-nav__logo {
   max-width: 150px;
   height: auto;
   -o-object-fit: contain;
      object-fit: contain;
+}
+.footer-nav__icons {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.footer-nav__icon {
+  -o-object-fit: contain;
+     object-fit: contain;
+  max-width: 20px;
 }/*# sourceMappingURL=style.css.map */
