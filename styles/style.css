@@ -252,4 +252,68 @@ footer {
   -o-object-fit: contain;
      object-fit: contain;
   max-width: 20px;
+}
+
+.project {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-bottom: 5%;
+}
+.project__intro {
+  max-width: 700px;
+  padding-right: 5%;
+  padding-bottom: 5%;
+}
+.project__intro__title {
+  max-width: 70%;
+  font-size: 40px;
+  line-height: 1.5;
+}
+.project__intro__text {
+  line-height: 1.5;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.project__list__container {
+  display: flex;
+  flex-direction: column;
+  min-width: 40%;
+  padding-bottom: 5%;
+}
+.project__list__item {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 7px;
+  border-bottom: solid 1px #a0a0a0;
+  min-width: 350px;
+  justify-content: space-between;
+}
+.project__list__item__first {
+  color: #808080;
+}
+.project__list__item__second {
+  font-weight: 500;
+  padding-left: 50px;
+}
+
+.images-section__big-image {
+  max-width: 100%;
+  max-height: 100%;
+}
+.images-section__text {
+  padding-bottom: 5%;
+  padding-top: 3%;
+}
+.images-section__images {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 5%;
+}
+.images-section__small-image {
+  width: 30%;
 }/*# sourceMappingURL=style.css.map */
