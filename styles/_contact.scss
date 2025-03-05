@@ -46,11 +46,11 @@
             border: none;
             border-color: #ffffff;
             border-bottom: solid 1px #bababa;
-            color: #4A4FF2;
+            color: $genesis-purple-color;
         }
 
         &__button{
-            background-color:  #4A4FF2;
+            background-color: $genesis-purple-color;
             color: #ffffff;
             max-width: 150px;
             padding: 20px;
