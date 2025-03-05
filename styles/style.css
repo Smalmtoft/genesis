@@ -294,7 +294,7 @@ footer {
 .project__list__container {
   display: flex;
   flex-direction: column;
-  min-width: 40%;
+  min-width: 500px;
   padding-bottom: 5%;
 }
 .project__list__item {
@@ -358,8 +358,33 @@ footer {
 .contact__form {
   display: flex;
   flex-direction: column;
-  min-width: 40%;
+  max-width: 100%;
+  min-width: 500px;
   padding-bottom: 5%;
+}
+.contact__form__input {
+  border: none;
+  padding-bottom: 15px;
+  margin-bottom: 50px;
+  border-bottom: solid 1px #bababa;
+}
+.contact__form__input:focus {
+  outline: none;
+  border: none;
+  border-color: #ffffff;
+  border-bottom: solid 1px #bababa;
+  color: #4A4FF2;
+}
+.contact__form__button {
+  background-color: #4A4FF2;
+  color: #ffffff;
+  max-width: 150px;
+  padding: 20px;
+  border: none;
+  transition: 0.5s;
+}
+.contact__form__button:hover {
+  background-color: #0008f6;
 }
 
 .map {
