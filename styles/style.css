@@ -6,6 +6,7 @@ body {
 
 main {
   padding: 10%;
+  padding-top: 5%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -16,18 +17,14 @@ main {
 .hello-section {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-between;
-  align-content: space-between;
   padding-bottom: 7%;
   width: 100%;
 }
 .hello-section__container {
-  max-width: 60%;
+  max-width: 700px;
   flex-direction: column;
-}
-.hello-section__title {
-  font-size: 40px;
-  line-height: 1.5;
 }
 .hello-section__progress {
   align-self: flex-end;
@@ -43,16 +40,23 @@ main {
   width: 100%;
   display: flex;
   flex-direction: row;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   justify-content: space-between;
-  align-items: center;
+  align-items: baseline;
   padding-top: 10%;
   padding-bottom: 10%;
   border-bottom: 1px solid #8c8c8c;
 }
 .service-section__title {
-  max-width: 50%;
+  min-width: 400px;
+  max-width: 700px;
   font-size: 28px;
+}
+.service-section__list {
+  min-width: 350px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 .service-section__ul {
   display: flex;
@@ -170,6 +174,11 @@ img {
   grid-row: 26/33;
 }
 
+h1 {
+  font-size: 40px;
+  line-height: 1.5;
+}
+
 h4 {
   font-size: 22px;
   font-weight: bold;
@@ -201,6 +210,10 @@ a {
 
 a:hover {
   color: #4A4FF2;
+}
+
+ul {
+  padding: 0px;
 }
 
 header {
