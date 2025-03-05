@@ -13,9 +13,9 @@ main{
     align-content: center;
 }
 
+@import 'index';
 @import 'gallery';
 @import 'fonts';
-@import 'service-awards';
-@import 'hello';
 @import 'header-footer';
 @import 'project-details';
+@import 'contact'

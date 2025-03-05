@@ -15,8 +15,6 @@ header{
 
 }
 
-a
-
 .nav{
 
     &__list{
@@ -27,6 +25,7 @@ a
 
     &__item{
         list-style: none;
+        text-decoration: none;
     }
 }
 
@@ -54,6 +53,7 @@ footer{
 
     &__item{
         list-style: none;
+
     }
 
     &__logo{

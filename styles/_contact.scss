@@ -1,0 +1,40 @@
+.contact{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 5%;
+
+    &__intro{
+        max-width: 400px;
+        padding-right: 5%;
+        padding-bottom: 5%;
+
+        &__title{
+        max-width: 100%;
+        font-size: 40px;
+        line-height: 1.5;
+        }
+
+        &__text{
+        line-height: 1.5;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        }
+    }
+
+    &__form{
+        display: flex;
+        flex-direction: column;
+        min-width: 40%;
+        padding-bottom: 5%;
+
+    }
+
+}
+
+.map{
+    width: 100%;;
+}

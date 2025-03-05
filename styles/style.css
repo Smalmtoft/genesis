@@ -13,6 +13,81 @@ main {
   align-content: center;
 }
 
+.hello-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: space-between;
+  padding-bottom: 7%;
+  width: 100%;
+}
+.hello-section__container {
+  max-width: 60%;
+  flex-direction: column;
+}
+.hello-section__title {
+  font-size: 40px;
+  line-height: 1.5;
+}
+.hello-section__progress {
+  align-self: flex-end;
+  border-top: solid 1px;
+  font-style: italic;
+}
+
+.purple, .shooting-stars {
+  color: #4A4FF2;
+}
+
+.service-section {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  border-bottom: 1px solid #8c8c8c;
+}
+.service-section__title {
+  max-width: 50%;
+  font-size: 28px;
+}
+.service-section__ul {
+  display: flex;
+  flex-direction: column;
+}
+.service-section__li {
+  list-style: none;
+  font-size: 18 px;
+  padding-bottom: 15px;
+  color: #8c8c8c;
+}
+
+.awards-section {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.awards-section__awards {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-auto-rows: auto;
+  width: 100%;
+  padding-top: 2%;
+  padding-bottom: 5%;
+  border-bottom: 1px solid #8c8c8c;
+}
+.awards-section__award {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 20%;
+}
+.awards-section__example {
+  max-width: 20%;
+}
 .gallery-section {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -22,7 +97,6 @@ main {
   max-height: 2000px;
   grid-gap: 20px;
 }
-
 .gallery-section__element {
   width: 100%;
   height: 100%;
@@ -118,76 +192,14 @@ p {
   line-height: 1.5;
 }
 
-.service-section {
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: space-between;
-  align-items: center;
-  padding-top: 10%;
-  padding-bottom: 10%;
-  border-bottom: 1px solid #8c8c8c;
-}
-.service-section__title {
-  max-width: 50%;
-  font-size: 28px;
-}
-.service-section__ul {
-  display: flex;
-  flex-direction: column;
-}
-.service-section__li {
-  list-style: none;
-  font-size: 18 px;
-  padding-bottom: 15px;
-  color: #8c8c8c;
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+  transition: 0.5s;
 }
 
-.awards-section {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-}
-.awards-section__awards {
-  display: grid;
-  grid-template-columns: 1fr 3fr;
-  grid-auto-rows: auto;
-  width: 100%;
-  padding-top: 2%;
-  padding-bottom: 5%;
-  border-bottom: 1px solid #8c8c8c;
-}
-.awards-section__award {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  gap: 20%;
-}
-.awards-section__example {
-  max-width: 20%;
-}
-.hello-section {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-content: space-between;
-  padding-bottom: 7%;
-  width: 100%;
-}
-.hello-section__container {
-  max-width: 60%;
-  flex-direction: column;
-}
-.hello-section__title {
-  font-size: 40px;
-  line-height: 1.5;
-}
-.hello-section__progress {
-  align-self: flex-end;
-}
-
-.purple, .shooting-stars {
+a:hover {
   color: #4A4FF2;
 }
 
@@ -206,13 +218,14 @@ header__logo {
      object-fit: contain;
 }
 
-a .nav__list {
+.nav__list {
   display: flex;
   flex-direction: row;
   gap: 20px;
 }
-a .nav__item {
+.nav__item {
   list-style: none;
+  text-decoration: none;
 }
 
 footer {
@@ -316,4 +329,39 @@ footer {
 }
 .images-section__small-image {
   width: 30%;
+}
+
+.contact {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-bottom: 5%;
+}
+.contact__intro {
+  max-width: 400px;
+  padding-right: 5%;
+  padding-bottom: 5%;
+}
+.contact__intro__title {
+  max-width: 100%;
+  font-size: 40px;
+  line-height: 1.5;
+}
+.contact__intro__text {
+  line-height: 1.5;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.contact__form {
+  display: flex;
+  flex-direction: column;
+  min-width: 40%;
+  padding-bottom: 5%;
+}
+
+.map {
+  width: 100%;
 }/*# sourceMappingURL=style.css.map */

@@ -19,3 +19,15 @@ p{
     color: rgb(79, 79, 79);
     line-height: 1.5;
 }
+
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    transition: 0.5s;
+}
+
+a:hover{
+    color: #4A4FF2
+    
+}
