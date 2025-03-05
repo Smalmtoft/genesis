@@ -1,5 +1,4 @@
-.contact{
-    font-family: 
+.contact{ 
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -30,7 +29,7 @@
         display: flex;
         flex-direction: column;
         max-width: 100%;
-        min-width: 500px;
+        min-width: 400px;
         padding-bottom: 5%;
 
         &__input{
