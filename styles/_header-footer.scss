@@ -1,21 +1,24 @@
 header{
     margin: auto;
     padding: 5% 10% 2% 10%;
+
+}
+
+.header__logo{
+    max-width: 150px;
+    height: auto;
+    object-fit: contain;
+}
+
+nav{
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: baseline;
-
-    &__logo{
-        max-width: 150px;
-        height: auto;
-        object-fit: contain;
-        
-    }
-
 }
 
-.nav{
+.navigation{
 
     &__list{
         display: flex;
@@ -49,11 +52,7 @@ footer{
         display: flex;
         flex-direction: row;
         gap: 20px;
-    }
-
-    &__item{
         list-style: none;
-
     }
 
     &__logo{
